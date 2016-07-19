@@ -1,0 +1,57 @@
+.btn{			/*setting the margin for submit button*/	
+	margin-top:20px;
+}
+
+form{			/*setting the margin for form*/
+	margin: 100px;
+}
+
+.details1{		/*setting the margin for movie details*/	
+	margin-top: 20px;
+}
+
+/*media queries for the images*/
+
+@media (max-width: 480px) {
+	#images{
+		height: 30px;
+		width:30px;
+	}
+	font-size: 2px;
+	.
+}
+
+@media (max-width: 991px) {
+	#images{
+		height: 100px;
+		width:140px;
+	}
+}
+
+@media (min-width: 991px) {
+	#images{
+		height: 100px;
+		width:180px;
+	}
+}
+
+@media (max-width: 768px) {
+	#images{
+		height: 100px;
+		width:120px;
+	}
+}
+
+@media (min-width: 1200px){
+	#images{
+		height: 100px;
+		width:140px;
+	}
+}
+
+@media (min-width: 1200px){
+	#images{
+		height: 120px;
+		width:250px;
+	}
+}

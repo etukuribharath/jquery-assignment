@@ -1,0 +1,49 @@
+<html>
+
+<head><!--head section starting-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jquery</title>
+	<script type="text/javascript" src="includes/js/jquery-3.1.0.js"></script><!--jquery library-->
+	<link href="includes/css/style.css" rel="stylesheet"><!--custom style sheet-->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head><!--head section ending-->
+
+<body>
+	<div class="container"><!--container starting -->
+		<nav class="navbar navbar-inverse navbar-fixed-top"><!--navbar starting -->
+		    <div class="navbar-header">
+		        <a class="navbar-brand" href="#"></a>
+		        <a href="#" class="navbar-brand">Movie World</a>
+			</div>
+		 </nav><!--navbar closing -->
+  
+		<div class="row"><!--form div starting-->
+			<div class="col-lg-12 col-sm-12 col-md-12" style="text-align: center">
+				<form name="form" action="#"><!--search form starting-->
+					<h1 class="h">Welcome To Movie Search</h1>
+					<!--text field for the movie search-->
+					<input type="text" class="form-control" name="movie" placeholder="Enter Movie Name" id="input" class="">
+					
+					<input type="submit" name="Search" value="Search" class="btn btn-success"><!--form submit button-->
+				</form><!--search form ending -->
+			</div>
+		</div><!--form div closing -->
+	</div><!--container closing -->
+
+	<div class="container well"><!--container for movie details starting-->
+		<div class="row details"><!--row ending-->
+			<div class="details1 col-lg-2 col-sm-2 col-md-2 col-xs-2"><h4>Movie Name</h4></div><!--Movie name header-->
+			<div class="details1 col-lg-2 col-sm-2 col-md-2 col-xs-2"><h4>Year</h4></div><!--Year header-->
+			<div class="details1 col-lg-2 col-sm-2 col-md-2 col-xs-2"><h4>IMDB ID</h4></div><!--imdb header-->
+			<div class="details1 col-lg-2 col-sm-2 col-md-2 col-xs-2"><h4>Type</h4></div><!--Type header-->
+			<div class="details1 col-lg-2 col-sm-2 col-md-2 col-xs-2"><h4>Image</h4></div><!--Image header-->
+		</div><!--row ending-->
+	</div><!--container for movie details ending-->
+	
+	<script type="text/javascript" src="includes/js/movie.js"></script><!--custom jquery-->
+	
+	</body>
+
+</html>
